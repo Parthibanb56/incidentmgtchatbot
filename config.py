@@ -1,0 +1,6 @@
+DB_HOST = "localhost"
+DB_USER = "mcaproject"
+DB_PASSWORD = "parthimcaproject"
+DB_NAME = "insurance"
+LLM_MODEL = "mistral"
+#LLM_MODEL = "deepseek-coder"
