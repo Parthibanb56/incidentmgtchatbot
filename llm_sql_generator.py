@@ -98,6 +98,13 @@ FROM ticketdetails
 WHERE STR_TO_DATE(ticketsubmitteddatetime, '%e/%c/%Y') = STR_TO_DATE('21/02/2026', '%d/%m/%Y')
 LIMIT 50;
 
+User: ticket closed on 21/02/2026
+SQL:
+SELECT *
+FROM ticketdetails
+WHERE STR_TO_DATE(ticketcloseddatetime, '%e/%c/%Y') = STR_TO_DATE('21/02/2026', '%d/%m/%Y')
+LIMIT 50;
+
 User: berapa banyak tiket low
 SQL:
 SELECT COUNT(*) AS total
